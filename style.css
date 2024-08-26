@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+}
+
+
+:root{
+    --bg-color:#081b29;
+    --second-bg-color:#112e42;
+    --text-color:#ededed;
+    --main-color:#00abf0;
+}
+
+body{
+    background:var(--bg-color);
+    color:var(--text-color);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+@media (max-width:693px){
+    h1{
+        font-size:30px ;
+        margin-top: 30%;
+    }
+}
+@media (max-width:594px){
+    h1{
+        font-size:30px ;
+        margin-top: 40%;
+    }
+}
+@media (max-width:597px){
+    h1{
+        font-size:30px ;
+        margin-top: 45%;
+    }
+}
+@media (max-width:515px){
+    h1{
+        font-size:30px ;
+        margin-top: 50%;
+    }
+}
+@media (max-width:475px){
+    h1{
+        font-size:29px ;
+        margin-top: 50%;
+    }
+}
+@media (max-width:455px){
+    h1{
+        font-size:26px ;
+        margin-top: 60%;
+    }
+}
+@media (max-width:393px){
+    h1{
+        font-size:25px ;
+        margin-top: 60%;
+    }
+}
+@media (max-width:359px){
+    h1{
+        font-size:23px ;
+        margin-top: 70%;
+    }
+}
+@media (max-width:335px){
+    h1{
+        font-size:19px ;
+        margin-top: 80%;
+    }
+}
